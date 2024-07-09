@@ -1,7 +1,7 @@
 # The Odin Project - Landing Page
 
 This is one of the project about creating a landing page from `The Odin Project's` Foundations course.
-As it is a landing page, it contains a `header`, `footer`, and `one or more secions` in between the header and footer.
+As it is a landing page, it contains a `header`, `footer`, and `one or more sections` in between the header and footer.
 
 ## Objective
 
