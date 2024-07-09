@@ -6,3 +6,10 @@ As it is a landing page, it contains a `header`, `footer`, and `one or more seci
 ## Objective
 
 The primary objective of this project is to familiarize with the `flexbox` CSS property or layout by creating a landing page with the topics that have been covered so far.
+
+## Credits
+
+Credits to `Google DeepMind` and `Steve Johnson` for providing free to use images from [Pexels](https://www.pexels.com/).
+
+* [Google DeepMind](https://www.pexels.com/@googledeepmind/)
+* [Steve Johnson](https://www.pexels.com/@steve/)
