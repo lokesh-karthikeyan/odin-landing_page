@@ -25,7 +25,8 @@ a {
 
 /* COMMON CONFIG */
 
-.container {
+.container,
+.info-notes>* {
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -79,11 +80,6 @@ body {
 	font-weight: bolder;
 }
 
-.info-notes.quote {
-	font-size: 36px;
-	font-style: italic;
-}
-
 .card h2,
 .info-notes.quote {
 	color: #1F2937;
@@ -135,6 +131,51 @@ body {
 .hero-left .sign-up {
 	margin-top: 15px;
 }
+
+/* MAIN-CONTENT ::: SECTION - 1 */
+
+.card h2 {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.card .container {
+	display: flex;
+}
+
+.card .card-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-section .card-box-content {
+	border: 2px solid #3882F6;
+	min-height: 200px;
+	width: 80%;
+}
+
+.card-section p {
+	text-align: center;
+	padding: 1em 0 8em 0;
+}
+
+/* MAIN-CONTENT ::: SECTION - 2 */
+
+.info-notes.quote {
+	font-size: 36px;
+	font-style: italic;
+	padding-top: 100px;
+}
+
+.info-notes.author {
+	font-size: 1.5em;
+	font-weight: bolder;
+	padding-bottom: 100px;
+	text-align: end;
+}
+
+/* FOOTER */
 
 .footer-area {
 	padding: 30px;
