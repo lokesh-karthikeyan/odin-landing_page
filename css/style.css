@@ -38,10 +38,6 @@ a {
 	background-color: #1F2937;
 }
 
-.info-notes {
-	background-color: #E5E7EB;
-}
-
 /* FONT CONFIG */
 
 body {
@@ -100,6 +96,14 @@ body {
 	padding: 8px 32px;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+/* BORDERS */
+
+.sign-up,
+.card-box-content,
+.sign_up-content .container {
+	border-radius: 8px;
 }
 
 /* NAVBAR */
@@ -171,6 +175,7 @@ body {
 /* MAIN-CONTENT ::: SECTION - 2 */
 
 .info-notes {
+	background-color: #E5E7EB;
 	padding: 0 150px;
 }
 
@@ -189,12 +194,13 @@ body {
 
 /* MAIN-CONTENT ::: SECTION - 3 */
 
-.sign_up-content {
+.sign_up-content .container {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	margin: 90px auto;
 	background-color: #3882F6;
-	margin: 100px auto;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 150px;
 }
 
 .sign_up-content-info h3 {
@@ -203,14 +209,15 @@ body {
 
 .sign_up-content-info {
 	background-color: #3882F6;
-	flex: 1;
-	padding: 50px 0 50px 150px;
 	color: #fff;
 }
 
+.sign_up-content-info p {
+	color: #c9d2e0;
+}
+
 .sign_up-content .sign-up {
-	margin-right: 150px;
-	border: 1px solid #fff;
+	border: 3px solid #fff;
 }
 
 /* FOOTER */
